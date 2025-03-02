@@ -14,7 +14,15 @@
             background-color: #f4f4f4;
             text-align: center;
         }
-        
+
+        .container{
+            max-width: 600px; /* İçeriğin maksimum genişliğini belirler */
+            margin: 50px auto; /* Üstten 50px boşluk bırakır, otomatik olarak ortalar */
+            padding: 20px; /* İç boşluk ekler */
+            background: #fff; /* Arka plan rengini beyaz yapar */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Hafif gölgelendirme efekti ekler */
+            border-radius: 10px; /* Köşeleri yuvarlatır */
+        }
         img {
             width: 150px;
             border-radius: 50%;
@@ -31,6 +39,13 @@
             color: #0073e6;
             font-weight: bold;
         }
+        ul {
+            list-style-type: none;   /* Madde işaretlerini kaldır */
+            padding: 0;
+          }
+          li {
+            margin: 5px 0;           /* Liste öğeleri arasında boşluk */
+          }
     </style>
 </head>
 <body>
@@ -44,7 +59,17 @@
             <a href="#">E-Posta</a>
         </div>
     </div>
-   
+    <div class="container">
+       
+        <h1>ilgi alanlarım </h1>
+        <p>Arabalar</p>
+        <ul>
+            <li>audi</li>
+            <li>bmw</li>
+            <li>porche</li>
+        </ul>
+        <img src="audi.png" alt="">
+    </div>
        
        
     </div>
