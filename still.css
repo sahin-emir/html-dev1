@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.container{
+    max-width: 600px; /* İçeriğin maksimum genişliğini belirler */
+    margin: 50px auto; /* Üstten 50px boşluk bırakır, otomatik olarak ortalar */
+    padding: 20px; /* İç boşluk ekler */
+    background: #fff; /* Arka plan rengini beyaz yapar */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Hafif gölgelendirme efekti ekler */
+    border-radius: 10px; /* Köşeleri yuvarlatır */
+}
+
+button {
+    background-color: #ff5733; /* Turuncu tonunda arka plan */
+    color: white; /* Yazı rengi */
+    border: none; /* Kenarlık kaldırıldı */
+    padding: 10px 20px; /* İç boşluk */
+    font-size: 16px; /* Yazı boyutu */
+    border-radius: 5px; /* Köşeleri yuvarlat */
+    cursor: pointer; /* Üzerine gelince el işareti */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Geçiş efekti */
+}
+img {
+    width: 150px;
+    border-radius: 50%;
+}
+h1 {
+    color: #333;
+}
+p {
+    color: #666;
+}
+.social-links a {
+    margin: 10px;
+    text-decoration: none;
+    color: #0073e6;
+    font-weight: bold;
+}
+ul {
+    list-style-type: none;   /* Madde işaretlerini kaldır */
+    padding: 0;
+  }
+  li {
+    margin: 5px 0;           /* Liste öğeleri arasında boşluk */
+  }
