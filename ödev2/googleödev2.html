@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>google</title>
+    <style> 
+        .container{
+            max-width: 600px; /* İçeriğin maksimum genişliğini belirler */
+            margin: 20px auto; /* Üstten 50px boşluk bırakır, otomatik olarak ortalar */
+            padding: 20px; /* İç boşluk ekler */
+            background: #fff; /* Arka plan rengini beyaz yapar */
+           
+            
+        }
+        img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 70px;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            
+            text-align: center;
+        }
+        .textt {
+            width: 600px; /* Genişliği 500 piksel yapar */
+            padding: 10px;
+            border: 2px solid #007bff;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        input{
+            padding: 5px;
+            margin-right: 15px;
+        }
+        .container1 {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* 3 eşit sütun */
+            gap: 10px; /* Sütunlar arası boşluk */
+        }
+        .column {
+            display: inline-block;
+            width: 10%; /* Ekranın 3'te 1'ini kaplar */
+            
+            
+            text-align: center;
+            padding: 20px;
+            margin: 1%;
+            border-radius: 5px;
+        }
+        a {
+            display: block; /* Bloğa çevirerek tam satırı kaplamasını sağlar */
+            text-align: center; /* Metni ortalar */
+            padding: 10px;
+            
+           
+            text-decoration: none;
+            width: 200px; /* Genişlik belirleyerek ortalamayı sağlar */
+            margin: 0 auto; /* Yatayda ortalar */
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    
+    <img src="google.png" alt="">
+    <div class="container">
+        <input class="textt" type="text" placeholder="Arama Yapın">
+        <input type="button" value="I'm feeling lucky ">
+        <input type="button" value="arama yap">
+
+    </div>
+    
+        <div class="column">
+            <a href="https://www.google.com">Special Searches</a>
+            <a href="https://www.google.com">Stanford Searches</a>
+            <a href="https://www.google.com">Linux Searches</a>
+
+        
+        </div>
+        <div class="column">
+            <a href="https://www.google.com">  help</a>
+            <a href="https://www.google.com">About Google </a>
+            <a href="https://www.google.com">Google logos</a>
+       
+            </div>
+            <div class="column">
+                <p>Get google</p>
+                <input type="text" placeholder="your e-mail"  >
+            </div>
+           <p>Copyright 2018 google</p>
+   
+</body>
+</html>
