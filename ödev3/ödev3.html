@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>google</title>
+    <style> 
+      
+   
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            min-height: 100vh;
+            min-width:none;; /* Sayfanın tam görünür yükseklikte olmasını sağlar */
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        
+        .search-container {
+            text-align: center;
+            margin-top: -50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+        }
+        .search-container img {
+            width: 250px;
+            margin-bottom: 50px;
+            
+        }
+        .search-container input {
+            width: 400px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 20px;
+            font-size: 16px;
+        }
+        .buttons {
+            margin-top: 20px;
+        }
+        .buttons a {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 5px;
+            background-color: #f8f9fa;
+            border: 1px solid #dfe1e5;
+            border-radius: 5px;
+            text-decoration: none;
+            color: black;
+            font-size: 14px;
+        }
+        .buttons a:hover {
+            background-color: #dfe1e5;
+        }
+        
+         .navbar {
+            display: flex;
+            justify-content: flex-end;
+            padding: 10px 20px;
+            background: white;
+        }
+        .navbar ul {
+            list-style: none;
+            display: flex;
+            padding: 0;
+            margin: 0;
+        }
+        .navbar li {
+            margin-left: 10px; /* Boşluğu azalttım */
+            padding: 5px 10px; /* Daha düzenli bir görünüm için iç boşluk ekledim */
+        }
+        .navbar a {
+            text-decoration: none;
+            color: black;
+            font-size: 14px;
+        }
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+        .profile {
+            background: orange;
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 30px;
+            font-weight: bold;
+            margin-left: 10px; /* Boşluğu azalttım */
+        }
+        .footer {
+            width: 100%;
+            background: #f2f2f2;
+            padding: 10px 0px; /* Daha sıkı bir görünüm için padding azalttım */
+            display: flex;
+            justify-content: space-between;
+            font-size: 14px;
+        }
+        .footer ul {
+            list-style: none;
+            display: flex;
+            padding: 0;
+            margin: 0;
+        }
+        .footer li {
+            margin-right: 15px;
+            margin-left: 5px;; /* Boşluğu azalttım */
+            padding: 5px 0;
+        }
+        .footer a {
+            text-decoration: none;
+            color: black;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        
+          
+        
+
+    </style>
+</head>
+<body>
+    
+    <nav class="navbar">
+        <ul class="header">
+            <li ><a href="https://www.google.com.tr/imghp?hl=en&tab=wi&authuser=0&ogbl">Images</a></li>
+            <li ><a href="#">Gmail</a></li>
+            <li ><a href="#">Uygulamalar</a></li>
+            <li class="headerli profile">E</li>
+        </ul>
+    </nav>
+  
+    <div class="search-container">
+        <img src="google.png" alt="Google Logo">
+        <input type="text" placeholder="Google'da Ara">
+        <div class="buttons">
+            <a href="https://www.google.com">Google'da Ara</a>
+            <a href="https://www.google.com/doodles">Kendimi Şanslı Hissediyorum</a>
+        </div>
+    </div>
+    
+            <footer class="footer">
+                <ul>
+                    <li><a href="#">Hakkında</a></li>
+                    <li><a href="#">Reklam</a></li>
+                    <li><a href="#">İşletme</a></li>
+                    <li><a href="#">Arama nasıl çalışır?</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">Gizlilik</a></li>
+                    <li><a href="#">Şartlar</a></li>
+                    <li><a href="#">Ayarlar</a></li>
+                </ul>
+            </footer>
+   
+</body>
+</html>
